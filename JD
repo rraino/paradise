@@ -7,8 +7,6 @@ import datetime
 import time
 
 driver = webdriver.Firefox()
-# http://gate.jd.com/InitCart.aspx?pid=4993737&pcount=1&ptype=1
-
 def login(username, password):
     driver.get("https://passport.jd.com/new/login.aspx")
     time.sleep(2)
